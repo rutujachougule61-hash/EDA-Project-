@@ -4,16 +4,16 @@ An **AI-powered Exploratory Data Analysis (EDA) web application** built with **P
 
 The application allows users to upload a CSV dataset and automatically generates:
 
-* 📊 Dataset summary
-* 🔍 Missing-value analysis
-* 🤖 AI-generated data insights using **Gemma 2B**
-* 📈 Histograms for numerical columns
-* 🔥 Correlation heatmap
-* 🌐 Interactive web interface using Gradio
+*  Dataset summary
+*  Missing-value analysis
+*  AI-generated data insights using **Gemma 2B**
+*  Histograms for numerical columns
+*  Correlation heatmap
+*  Interactive web interface using Gradio
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 Exploratory Data Analysis is an important step in understanding a dataset before applying statistical analysis or machine learning.
 
@@ -23,22 +23,22 @@ The application uses **Ollama with the Gemma 2B model** to generate AI-powered o
 
 ---
 
-## ✨ Features
+##  Features
 
-### 1. 📂 CSV File Upload
+### 1.  CSV File Upload
 
 Users can upload a CSV dataset directly through the Gradio interface.
 
 The application reads the uploaded file using Pandas.
 
-### 2. 🧹 Automated Missing-Value Handling
+### 2.  Automated Missing-Value Handling
 
 The application handles missing values automatically:
 
 * **Numerical columns:** Missing values are replaced with the median.
 * **Categorical columns:** Missing values are replaced with the mode.
 
-### 3. 📊 Automated Dataset Summary
+### 3. Automated Dataset Summary
 
 The application generates a statistical summary of the dataset using:
 
@@ -48,7 +48,7 @@ df.describe(include='all')
 
 This provides information about the dataset's numerical and categorical variables.
 
-### 4. 🔎 Missing-Value Analysis
+### 4.  Missing-Value Analysis
 
 The application calculates missing values for each column using:
 
@@ -58,13 +58,13 @@ df.isnull().sum()
 
 This allows users to inspect the missing-value status of the dataset.
 
-### 5. 🤖 AI-Powered Insights
+### 5.  AI-Powered Insights
 
 The project uses **Ollama + Gemma 2B** to analyze the dataset summary and generate natural-language insights.
 
 The summary is passed to the model through a prompt, and the generated response is displayed in the EDA report.
 
-### 6. 📈 Automatic Data Visualization
+### 6. Automatic Data Visualization
 
 The application automatically creates:
 
@@ -76,7 +76,7 @@ Histograms are generated for numerical columns to understand their distributions
 
 A correlation heatmap is generated for numerical variables to visualize relationships between features.
 
-### 7. 🌐 Gradio Web Interface
+### 7.  Gradio Web Interface
 
 The application provides a simple web interface where users can upload their CSV file and receive the EDA report and visualizations.
 
@@ -98,7 +98,7 @@ The interface contains an **EDA Report** section and a **Data Visualization** ga
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 LLM-EDA-Web-Application/
@@ -116,7 +116,7 @@ LLM-EDA-Web-Application/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### 1. Clone the Repository
 
@@ -154,7 +154,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧠 Install Ollama
+##  Install Ollama
 
 This project requires **Ollama** to run the local Gemma model.
 
@@ -168,7 +168,7 @@ Make sure Ollama is running before launching the application.
 
 ---
 
-## 📦 requirements.txt
+##  requirements.txt
 
 Create a file named `requirements.txt` containing:
 
@@ -182,7 +182,7 @@ ollama
 
 ---
 
-## ▶️ Run the Application
+## Run the Application
 
 Run:
 
@@ -202,7 +202,7 @@ to launch the application and create a shareable Gradio link.
 
 ---
 
-## 🔄 How It Works
+##  How It Works
 
 ```text
               CSV Dataset
@@ -238,7 +238,7 @@ to launch the application and create a shareable Gradio link.
 
 ---
 
-## 📊 Example Output
+## Example Output
 
 After uploading a CSV file, the application generates an EDA report containing:
 
@@ -262,7 +262,7 @@ It also generates visualizations including:
 
 ---
 
-## 💡 Use Cases
+## Use Cases
 
 This project can be useful for:
 
@@ -277,26 +277,26 @@ This project can be useful for:
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 Potential improvements include:
 
-* 📊 Interactive Plotly visualizations
-* 📋 Automatic data-quality report
-* 🧠 Support for additional LLMs
-* 📁 Excel file support
-* 📈 Advanced statistical analysis
-* 🤖 Automated ML model recommendations
-* 🏆 Feature importance analysis
-* 📉 Outlier detection
-* 🔐 Improved file handling
-* 📥 Downloadable EDA reports
-* 📊 Interactive dashboard
-* 🧬 Healthcare-specific analytics
+*  Interactive Plotly visualizations
+*  Automatic data-quality report
+*  Support for additional LLMs
+*  Excel file support
+*  Advanced statistical analysis
+*  Automated ML model recommendations
+*  Feature importance analysis
+*  Outlier detection
+*  Improved file handling
+*  Downloadable EDA reports
+*  Interactive dashboard
+*  Healthcare-specific analytics
 
 ---
 
-## 🎯 Skills Demonstrated
+## Skills Demonstrated
 
 This project demonstrates practical knowledge of:
 
@@ -304,7 +304,7 @@ This project demonstrates practical knowledge of:
 
 ---
 
-## 👩‍💻 Author
+##Author
 
 **Rutuja C.**
 
@@ -322,7 +322,7 @@ B.Tech Biotechnology | Data Science & AI/ML Enthusiast
 
 ---
 
-## ⭐ If You Like This Project
+##  If You Like This Project
 
 If you find this project useful, consider giving the repository a ⭐ on GitHub!
 
